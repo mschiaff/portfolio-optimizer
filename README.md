@@ -56,12 +56,7 @@ Sea $n$ la cantidad de clientes que queremos asignar entre $m$ ejecutivos:
 
 <b><u>Variables de decisión</u></b>
 
-$$X_{ij} \left\{
-    \begin{array}{ll}
-        1 \; Se \: asigna\: el\: ejecutivo\: i\: al\: cliente\: j\\
-        0 \; e.o.c
-    \end{array}
-    \right.$$
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;X_{ij}\left\{\begin{matrix}1&space;&&space;\text{Se&space;asigna&space;el&space;ejecutivo&space;i&space;al&space;cliente&space;j}&space;\\0&space;&&space;\text{e.o.c}&space;\\\end{matrix}\right." title="X_{ij}\left\{\begin{matrix}1 & \text{Se asigna el ejecutivo i al cliente j} \\0 & \text{e.o.c} \\\end{matrix}\right." />
 
 $$i \in [1,m],\: j \in [1,n]$$
 
