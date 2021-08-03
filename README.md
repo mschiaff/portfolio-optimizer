@@ -12,7 +12,7 @@ Luego, lo que propone este proyecto es un modelo de optimización en base a prog
 
 Este es el caso más *"simple"*, y es donde tenemos una lista de de *n* clientes que queremos asignar sobre *m* ejecutivos, bajo el supuesto de que ningún ejecutivo tiene clientes asignados previamente. Es decir, los *n* clientes serán asignados a los *m* ejecutivos con independencia de su cartera actual. A modo de ejemplo, si tenemos 7.500 clientes, que en total suman $6.000 millones, y los queremos asignar entre 5 ejecutivos, entonces el resultado sería como se muestra en la siguiente tabla:
 
-<table>
+<table align="center">
     <tr>
         <th>Ejecutivo</th>
         <th>Clientes</th>
@@ -56,7 +56,9 @@ Sea $n$ la cantidad de clientes que queremos asignar entre $m$ ejecutivos:
 
 <b><u>Variables de decisión</u></b>
 
-<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;X_{ij}\left\{\begin{matrix}1&space;&&space;\text{Se&space;asigna&space;el&space;ejecutivo&space;i&space;al&space;cliente&space;j}&space;\\0&space;&&space;\text{e.o.c}&space;\\\end{matrix}\right." title="X_{ij}\left\{\begin{matrix}1 & \text{Se asigna el ejecutivo i al cliente j} \\0 & \text{e.o.c} \\\end{matrix}\right." />
+<p align="center">
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;X_{ij}\left\{\begin{matrix}1&space;&&space;\text{Se&space;asigna&space;el&space;ejecutivo&space;i&space;al&space;cliente&space;j}\\0&space;&&space;\text{e.o.c}\end{matrix}\right.&space;" title="\bg_white X_{ij}\left\{\begin{matrix}1 & \text{Se asigna el ejecutivo i al cliente j}\\0 & \text{e.o.c}\end{matrix}\right. "/>
+</p>
 
 $$i \in [1,m],\: j \in [1,n]$$
 
